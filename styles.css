@@ -1,0 +1,30 @@
+body {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: #222323;
+  text-decoration: none;
+}
+
+.homepage-banner {
+  display: flex;
+}
+.homepage-banner img {
+  margin: 0 auto;
+  height: 300px;
+}
+
+.homepage-list {
+  width: 400px;
+  margin: 2em auto;
+}
+.homepage-list li {
+  padding-left: 10px;
+  line-height: 31px;
+  height: 33px;
+  list-style: none;
+  border-left: 33px solid #222323;
+  margin-bottom: 1em;
+}
