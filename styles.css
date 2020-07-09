@@ -1,6 +1,31 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Ropa Sans", sans-serif;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: auto;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+}
+
+article {
+  background: red;
+  padding: 2em;
+  text-align: center;
 }
 
 a {
