@@ -15,6 +15,7 @@ body {
 
 main {
   flex: auto;
+  padding: 2em;
 }
 
 header, footer {
