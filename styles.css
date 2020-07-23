@@ -17,20 +17,20 @@ main {
   flex: auto;
 }
 
-footer {
+header, footer {
   padding: 1em;
   text-align: center;
 }
 
 article {
-  background: red;
+  background: #222323;
   padding: 2em;
+  color: #fff;
   text-align: center;
 }
 
 a {
   color: #222323;
-  text-decoration: none;
 }
 
 .homepage-banner {
@@ -52,4 +52,7 @@ a {
   list-style: none;
   border-left: 33px solid #222323;
   margin-bottom: 1em;
+}
+.homepage-list li a {
+  text-decoration: none;
 }
