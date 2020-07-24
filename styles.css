@@ -23,11 +23,15 @@ header, footer {
   text-align: center;
 }
 
-article {
+article, .ad {
   background: #222323;
   padding: 2em;
   color: #fff;
   text-align: center;
+}
+
+.ad {
+  background-color: #22232399;
 }
 
 a {
